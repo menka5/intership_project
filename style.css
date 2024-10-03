@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: #00698f;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+td {
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* Add some styles for the employee details page */
+.employee-details {
+  margin-top: 20px;
+}
+
+.employee-details p {
+  margin-bottom: 10px;
+}
+
+.employee-details ul {
+  margin-top: 20px;
+}
+
+/* Add some styles for the attendance list */
+.attendance-list {
+  margin-top: 20px;
+}
+
+.attendance-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.attendance-list li:last-child {
+  border-bottom: none;
+}

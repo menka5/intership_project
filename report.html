@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report</title>
+
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+ <script src="static/script.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Department-wise Employee Count</h1>
+    <table>
+        <tr>
+            <th>Department</th>
+            <th>Employee Count</th>
+        </tr>
+        {% for department, count in department_counts.items() %}
+            <tr>
+                <td>{{ department }}</td>
+                <td>{{ count }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
